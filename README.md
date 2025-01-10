@@ -27,23 +27,23 @@ El proyecto se encuntra finalizado.
 
 ##  Características de la aplicación y demostración 
 
--  La aplicación dispone de una interfaz de texto a través de la consola, lo que nos permite interactuar con el usuario.
+- La aplicación cuenta con una interfaz de texto a través de la consola, lo que permite la interacción con el usuario. Este puede elegir entre un conjunto de opciones para buscar información sobre un libro simplemente escribiendo su nombre. Si el libro existe, la consulta a la API proporcionará los datos más relevantes sobre esta búsqueda, los cuales se almacenarán en nuestra base de datos PostgreSQL utilizando la tecnología JDBC. En caso contrario, se mostrará un mensaje indicando que el libro no está disponible..
   <p align="center">
     <img src="Opcion1.JPG" alt="Descripción de la imagen" width="400">
   </p> 
-  -  La aplicación dispone de una interfaz de texto a través de la consola, lo que nos permite interactuar con el usuario.
+  - Una vez almacenados los datos en la base de datos, fue necesario aprender a realizar consultas desde su entorno. Para ello, fue indispensable revisar la documentación y conocer las posibles opciones disponibles para las consultas realizadas durante el Challenge. Un ejemplo de ello es la consulta que permite obtener todos los libros existentes junto con los nombres de sus respectivos autores
   <p align="center">
     <img src="Opcion2.JPG" alt="Descripción de la imagen" width="400">
   </p> 
-  -  La aplicación dispone de una interfaz de texto a través de la consola, lo que nos permite interactuar con el usuario.
+  - La siguiente opción permite que el usuario conozca una lista de los autores registrados junto con sus respectivos libros. Para ello, creé una nueva clase que contiene los campos correspondientes a cada autor con sus libros, utilizando JPA de Spring Framework.
   <p align="center">
     <img src="Opcion3.JPG" alt="Descripción de la imagen" width="400">
   </p> 
-  -  La aplicación dispone de una interfaz de texto a través de la consola, lo que nos permite interactuar con el usuario.
+  - "Leer la documentación es indispensable para realizar las consultas de forma adecuada. Esta opción permite visualizar la lista de autores que se encuentran activos en una fecha que el usuario puede ingresar. En caso de que no se obtenga ningún autor, la lista regresará vacía y se mostrará un mensaje.
   <p align="center">
     <img src="Opcion4.JPG" alt="Descripción de la imagen" width="400">
   </p> 
-  -  La aplicación dispone de una interfaz de texto a través de la consola, lo que nos permite interactuar con el usuario.
+  -  Por último, es posible consultar los libros disponibles en un idioma específico. La interfaz de la consola ofrece dos opciones de idioma que se pueden ingresar: Español o Inglés.
   <p align="center">
     <img src="Opcion5.JPG" alt="Descripción de la imagen" width="400">
   </p> 
